@@ -21,6 +21,10 @@ p {
   border: 1px solid white;
 }
 
+h2 {
+  text-align: center;
+}
+
 /* ////// */
 /* GRID 1 */
 /* ////// */
@@ -112,4 +116,27 @@ p {
   background: lightgreen;
   grid-column: 3 / 4;
   grid-row: 3 / 4;
+}
+
+/* ////// */
+/* GRID 4 */
+/* ////// */
+
+.grid-container-4 {
+  width: 602px;
+  margin: 0 auto;
+  border: 1px solid purple;
+  display: grid;
+  grid-template: repeat(3, 200px) / repeat(3, 200px);
+}
+
+#grid-item-five {
+  background: teal;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Use of span instead of the start and end position */
+  grid-column: span 2;
+  grid-row: 2 / span 3;
 }
