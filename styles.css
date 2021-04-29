@@ -82,6 +82,8 @@ p {
   justify-content: center;
   align-items: center;
   background: aqua;
+  grid-column: 1 / 4;
+  grid-row: 2 / 3;
 }
 
 #grid-item-two {
@@ -89,4 +91,6 @@ p {
   justify-content: center;
   align-items: center;
   background: #FF5670;
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
 }
