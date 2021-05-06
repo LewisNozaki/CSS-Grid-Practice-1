@@ -181,3 +181,37 @@ h2 {
   align-self: end;
   justify-self: end;
 }
+
+/* ////// */
+/* GRID 6 */
+/* ////// */
+
+.grid-container-6 {
+  width: 602px;
+  margin: 0 auto;
+  border: 1px solid purple;
+  display: grid;
+  grid-template: repeat(3, 200px) / repeat(3, 200px);
+  /* Practicing with grid gaps */
+  grid-column-gap: 2em;
+  grid-row-gap: 2em;
+  /* Grid Gap shorthand; row / height*/
+  grid-gap: 2em 3em;
+}
+
+#one, 
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine {
+  background: cornflowerblue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+}
