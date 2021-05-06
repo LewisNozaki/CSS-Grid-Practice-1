@@ -197,6 +197,7 @@ h2 {
   grid-row-gap: 2em;
   /* Grid Gap shorthand; row / height*/
   grid-gap: 2em 3em;
+  /* In the future, the grid-gap property will be replaced with "gap" and will also be available in flexbox and regular css as well */
 }
 
 #one, 
